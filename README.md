@@ -35,18 +35,20 @@ Model Comparison and Selection of the Best-Performing Model
 
 Best Model Selection - SVM model
 
+Prediction Accuracy:
+
 The SVM model achieved the highest test accuracy of 85%, indicating strong generalization.
-
 The Random Forest model achieved 84% accuracy but showed slight performance variations across validation folds.
-
 The Logistic Regression model had 83% accuracy but was outperformed by the other models.
 
 Confusion Matrices Analysis:
-Logistic Regression: Moderate misclassifications but stable results.
 
+Logistic Regression: 
+
+Moderate misclassifications but stable results.
 Random Forest: High recall for class 1 but some misclassification in class 0.
-
 SVM: Best balance between precision and recall.
 
-Precision-Recall Curves: The SVM model demonstrated a strong balance between precision and recall, further supporting its selection as the best-performing model.
+Precision-Recall Curves: 
+The SVM model demonstrated a strong balance between precision and recall, further supporting its selection as the best-performing model.
 
