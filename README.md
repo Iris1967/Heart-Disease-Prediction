@@ -12,13 +12,13 @@ The dataset used in this project is sourced from [Kaggle - UCI Heart Disease Dat
 - **Data Types**: Columns consist of both numerical (e.g., age, cholesterol levels) and categorical (e.g., presence of disease, sex) data.
 
 ### **Data Preprocessing:**
-- Missing values were handled by dropping rows/columns with a low percentage of missing values. For columns with high percentages of missing values, the missing values were imputed with the median.
-- The target feature `'num'` was transformed from multi-class (0, 1, 2, 3, 4) to a binary class (0, 1), indicating the presence or absence of heart disease.
+- Missing values were handled by dropping rows from columns that have low percentage of missing values. For columns with high percentages of missing values, the missing values were imputed with the median.
+- The target feature `'num'` was transformed from multi-class (0, 1, 2, 3, 4) initially indicating the severity level of a heart disease to a binary class (0, 1), indicating the presence or absence of heart disease.
 - Outliers were detected using z-scores, visualized with box plots, and irrelevant outliers were removed based on medical context.
-- Two columns were dropped as they did not contribute to predictive power.
-- Data were scaled using StandardScaler and encoded using One-Hot Encoding.
-- Feature selection was based on the correlation matrix.
+- The two columns, `'id'` and `'dataset'` were dropped as they did not contribute to predictive power.
+- Data were encoded using One-Hot Encoding and features are selected using the correlation matrix.
 - The dataset was split into training and testing sets with an 80-20 ratio.
+- SMOTE was used in balancing the target feature and StandardScaler for data scaling.
 
 ### **License**: Data files © Original Authors
 
@@ -29,7 +29,7 @@ The following investigators are acknowledged for their role in data collection:
 - University Hospital, Basel, Switzerland: Matthias Pfisterer, M.D.
 - V.A. Medical Center, Long Beach and Cleveland Clinic Foundation: Robert Detrano, M.D., Ph.D.
 
-## **The Three Chosen Models**
+## **The Three Models Used in this Project**
 1. Logistic Regression
 2. Random Forest Classifier
 3. Support Vector Machine (SVM)
@@ -42,6 +42,7 @@ The following investigators are acknowledged for their role in data collection:
 - Data Encoding
 - Feature Selection
 - Train-Test Split
+- Balancing Data
 - Feature Scaling
 
 ### 2. Model Development and Evaluation:
