@@ -72,4 +72,4 @@ The following investigators are acknowledged for their role in data collection:
 - The SVM model exhibits a higher test accuracy (85%) compared to its training accuracy (82%), suggesting that it is not overfitting and generalizes well to unseen data.
 
 ### **Precision-Recall Curves:**
--cThe SVM model demonstrated a strong balance between precision and recall, further supporting its selection as the best-performing model.
+- The SVM model demonstrated a strong balance between precision and recall, further supporting its selection as the best-performing model.
