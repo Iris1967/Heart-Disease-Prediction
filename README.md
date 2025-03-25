@@ -69,7 +69,7 @@ The following investigators are acknowledged for their role in data collection:
 - **SVM**: Best balance between precision and recall.
 
 ### **Test Accuracy Higher Than Training Accuracy:**
-The SVM model exhibits a higher test accuracy (85%) compared to its training accuracy (82%), suggesting that it is not overfitting and generalizes well to unseen data.
+- The SVM model exhibits a higher test accuracy (85%) compared to its training accuracy (82%), suggesting that it is not overfitting and generalizes well to unseen data.
 
 ### **Precision-Recall Curves:**
-The SVM model demonstrated a strong balance between precision and recall, further supporting its selection as the best-performing model.
+-cThe SVM model demonstrated a strong balance between precision and recall, further supporting its selection as the best-performing model.
